@@ -3,7 +3,7 @@ import { Route, useRouteMatch } from 'react-router-dom'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import { useWeb3React } from '@web3-react/core'
-import { Heading, Flex, Button, Text, HelpIcon, Link } from '@pancakeswap-libs/uikit'
+import { Heading, Flex, Button, Text, HelpIcon, Link } from 'uikit/index.cjs'
 import orderBy from 'lodash/orderBy'
 import partition from 'lodash/partition'
 import useI18n from 'hooks/useI18n'
@@ -52,7 +52,7 @@ const Syrup: React.FC = () => {
         <Flex justifyContent="space-between">
           <Flex flexDirection="column" mr={['8px', 0]}>
             <Heading as="h1" size="xxl" color="secondary" mb="24px">
-              {TranslateString(999, 'Syrup Pools')}
+              {TranslateString(999, 'Shark Pools')}
             </Heading>
             <Heading size="md" color="text">
               {TranslateString(999, 'Simply stake tokens to earn.')}
