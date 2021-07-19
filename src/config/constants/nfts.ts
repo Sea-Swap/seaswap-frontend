@@ -233,7 +233,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Swapsies',
-    description: 'These bunnies love nothing more than swapping pancakes. Especially on BSC.',
+    description: 'These bunnies love nothing more than swapping pancakes. Especially on Tron Chain.',
     images: {
       lg: 'swapsies-lg.png',
       md: 'swapsies-md.png',

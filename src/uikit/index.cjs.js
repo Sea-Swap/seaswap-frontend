@@ -3363,7 +3363,7 @@ var templateObject_1$a;
 
 var PriceLink = styled__default['default'].a(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
-    var cakePriceUsd = _a.cakePriceUsd;
+    var cakePriceUsd = 0.045;
     return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "#", target: "_blank" },
         React__default['default'].createElement(Icon$O, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
